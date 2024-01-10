@@ -54,3 +54,19 @@ class Orange extends FruitBasket {
         System.out.println("Seedless: " + (seedless ? "Yes" : "No"));
     }
 }
+
+class Grape extends FruitBasket {
+    private int sweetnessLevel = 10;
+
+    public Grape(String type, int sweetnessLevel){
+        super(type);
+        this.sweetnessLevel = sweetnessLevel;
+    }
+
+    @Override
+    public void display(){
+        super.display();
+        System.out.println("Sweetness Level: " + sweetnessLevel);
+    }
+}
+
