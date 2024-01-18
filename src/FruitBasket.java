@@ -66,7 +66,7 @@ class Grape extends FruitBasket {
     @Override
     public void display(){
         super.display();
-        System.out.println("Sweet  ness Level: " + sweetnessLevel);
+        System.out.println("Sweetn ess Level: " + sweetnessLevel);
         System.out.println("The best");
     }
 }
